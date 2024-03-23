@@ -44,12 +44,12 @@ function App(){
 
             })
         }else{
-          console.log("Already exist..");
+          alert("The To-Do task already exist ..");
         }
 
   }
   else{
-    console.log("Enter Valid To-Do list");
+    alert("Task is Empty!! \n Enter Valid Task..");
   }
 }
   else if(button=='Update ToDo'){
