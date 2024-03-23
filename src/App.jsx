@@ -136,7 +136,7 @@ return(
             </div>
             <div className="col-12 col-sm-3">
             
-                <select  className="btn bg-warning-subtle dropdown-toggle " onChange={(e)=>{
+                <select  className="btn bg-warning-subtle dropdown-toggle ms-3" onChange={(e)=>{
                   setFilterOptions(e.target.value);
                 }}>
 
