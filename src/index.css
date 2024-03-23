@@ -1,0 +1,14 @@
+.card-col,.card{
+    min-width: 20rem;
+    max-width: 40rem;
+    
+}
+.card{
+  background-color: rgb(163, 252, 203);
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: rgb(211, 241, 211);
+  z-index: 10;
+}
